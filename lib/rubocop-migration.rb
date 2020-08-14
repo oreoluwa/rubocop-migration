@@ -2,8 +2,7 @@ require "active_support"
 require "active_support/core_ext"
 require "active_record"
 # Only load a portion of strong_migrations
-require "strong_migrations/migration"
-require "strong_migrations/unsafe_migration"
+require "strong_migrations"
 require "rubocop"
 
 require "rubocop/migration/version"
